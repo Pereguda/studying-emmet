@@ -1,17 +1,30 @@
-# emmet-layout-simulator #    
-   
-Emmet (formerly Zen Coding) is a set of text editor plugins to speed up writing HTML, CSS and Javascript code.  
+This is a summary of the free course by Ismail Useinov on stepik.org "Emmet layout simulator plugin". Emmet (formerly Zen Coding) is a set of text editor plugins to speed up writing HTML, CSS and Javascript code.  
 
 [Emmet Official Website](https://emmet.io/)    
 [Emmet Documentation](https://docs.emmet.io/)    
 [Emmet Github Repository](https://github.com/emmetio/emmet)    
 
+Free course in Russian can be viewed at the following link:        
+[Тренажер по вёрстке плагин Emmet](https://stepik.org/course/113654/syllabus)  
+
 **Thanks to Stepik.org and Ismail Useinov for free course**    
 
-Free course in Russian can be viewed at the following link:        
-[Тренажер по вёрстке плагин Emmet](https://stepik.org/course/113654/syllabus)      
+Course content
+1. [Introduction](#1-introduction)   
++ [Installation of Emmett](#Installation of Emmett);    
++ [Заголовки](#Headers);    
+2. [Emmet for HTML](#)    
++ [Параграфы и разрывы строк](#Parag);    
++ [Заголовки](#Headers);    
+3. [Emmet for CSS](#3-emmet-for-css)        
++ [Параграфы и разрывы строк](#Parag);    
++ [Заголовки](#Headers);    
 
-## Installation of Emmett ##    
+# Emmet layout simulator plugin #     
+
+## 1. Introduction ##
+
+### <a name="Installation of Emmett"></a> Installation of Emmett ###    
 
 In the VS Code Emmet is preinstalled!    
 Create the basic structure of the HTML-page    
@@ -40,7 +53,7 @@ check settings `emmet.triggerExpansionOnTab: true`
 P.S. instead of `! + tab` in vs code you can use `html:5 + tab`   
 P.P.S. forced call prompt Emmet `ctrl + space`    
 
-## Elements ##    
+### Elements ###    
 
 `div + tab`(элемент)    
 
@@ -231,7 +244,7 @@ cursor at the end of the line to be duplicated
 `Stuck Mouse Wheel + Cursor move`     
 
 
-
+## 3. Emmet for CSS ##
 
 
 
