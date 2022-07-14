@@ -17,7 +17,7 @@ Course content
 + [Nesting operators](#nesting-operators);
 + [Attribute operators](#attribute-operators);
 2. [Emmet for HTML](#2-emmet-for-html)    
-+ [Параграфы и разрывы строк]();    
++ [HTML abbreviations](#html-abbreviations);    
 + [Заголовки]();    
 3. [Emmet for CSS](#3-emmet-for-css)        
 + [Параграфы и разрывы строк]();    
@@ -52,7 +52,7 @@ Create the basic structure of the HTML-page
 If `!+tab` doesn't work in vs code for HTML    
 check settings `emmet.triggerExpansionOnTab: true`    
 
-![emmet.triggerExpansionOnTab](emmet.triggerExpansionOnTab.jpg)    
+![emmet.triggerExpansionOnTab](emmet-triggerExpansionOnTab.jpg)    
 
 P.S. instead of `! + tab` in vs code you can use `html:5 + tab`   
 P.P.S. forced call prompt Emmet `ctrl + space`    
@@ -243,6 +243,30 @@ P.P.S. forced call prompt Emmet `ctrl + space`
 ``` 
 
 ## 2. Emmet for HTML ##
+
+### HTML abbreviations ###   
+
+![emmet.triggerExpansionOnTab](emmet-html-abbreviations.jpg)      
+
+P.S. forced call prompt Emmet `ctrl + space`    
+
+### Heading tags ###  
+
+
+
+### HTML abbreviations ###  
+
+
+
+### HTML abbreviations ###  
+
+
+
+### HTML abbreviations ###  
+
+
+
+### HTML abbreviations ###  
 
 
 
