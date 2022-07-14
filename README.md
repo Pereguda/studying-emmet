@@ -18,7 +18,7 @@ Course content
 + [Attribute operators](#attribute-operators);
 2. [Emmet for HTML](#2-emmet-for-html)    
 + [HTML abbreviations](#html-abbreviations);    
-+ [Заголовки]();    
++ [Heading tags](#heading-tags);    
 3. [Emmet for CSS](#3-emmet-for-css)        
 + [Параграфы и разрывы строк]();    
 + [Заголовки]();  
