@@ -24,7 +24,7 @@ Course content
 + [Заголовки]();  
 4. [Lifehacks and tricks VS Code](#4-lifehacks-and-tricks-vs-code)    
 
-# Emmet layout simulator plugin #     
+# Emmet #     
 
 ## 1. Introduction ##
 
