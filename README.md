@@ -1,8 +1,9 @@
 This is a summary of the free course by Ismail Useinov on stepik.org "Emmet layout simulator plugin". Emmet (formerly Zen Coding) is a set of text editor plugins to speed up writing HTML, CSS and Javascript code.  
 
 [Emmet Official Website](https://emmet.io/)    
-[Emmet Documentation](https://docs.emmet.io/)    
-[Emmet Github Repository](https://github.com/emmetio/emmet)    
+[Emmet Documentation](https://docs.emmet.io/)   
+[Emmet Condensed Documentation](https://docs.emmet.io/cheat-sheet/)     
+[Emmet Github Repository](https://github.com/emmetio/emmet)   
 
 Free course in Russian can be viewed at the following link:        
 [Тренажер по вёрстке плагин Emmet](https://stepik.org/course/113654/syllabus)  
@@ -11,20 +12,23 @@ Free course in Russian can be viewed at the following link:
 
 Course content
 1. [Introduction](#1-introduction)   
-+ [Installation of Emmett](#Installation of Emmett);    
-+ [Заголовки](#Headers);    
-2. [Emmet for HTML](#)    
-+ [Параграфы и разрывы строк](#Parag);    
-+ [Заголовки](#Headers);    
++ [Installation of Emmett](#installation-of-emmett);    
++ [Elements](#elements);  
++ [Nesting operators](#nesting-operators);
++ [Attribute operators](#attribute-operators);
+2. [Emmet for HTML](#2-emmet-for-html)    
++ [Параграфы и разрывы строк]();    
++ [Заголовки]();    
 3. [Emmet for CSS](#3-emmet-for-css)        
-+ [Параграфы и разрывы строк](#Parag);    
-+ [Заголовки](#Headers);    
++ [Параграфы и разрывы строк]();    
++ [Заголовки]();  
+4. [Lifehacks and tricks VS Code](#4-lifehacks-and-tricks-vs-code)    
 
 # Emmet layout simulator plugin #     
 
 ## 1. Introduction ##
 
-### <a name="Installation of Emmett"></a> Installation of Emmett ###    
+### Installation of Emmett ###    
 
 In the VS Code Emmet is preinstalled!    
 Create the basic structure of the HTML-page    
@@ -45,7 +49,7 @@ Create the basic structure of the HTML-page
 </html>
 ```    
 
-**If `!+tab` doesn't work in vs code for HTML**    
+If `!+tab` doesn't work in vs code for HTML    
 check settings `emmet.triggerExpansionOnTab: true`    
 
 ![emmet.triggerExpansionOnTab](emmet.triggerExpansionOnTab.jpg)    
@@ -55,15 +59,15 @@ P.P.S. forced call prompt Emmet `ctrl + space`
 
 ### Elements ###    
 
-`div + tab`(элемент)    
+`div + tab` (элемент)    
 
 ```
 <div></div>
 ```
 
-## Nesting operators ##   
+### Nesting operators ###   
 
-**Child: >** (дочерние элементы - "ребенок")    
+**Child: >** (дочерние элементы - "ребенок") ####    
 
 `div>ul>li + tab`    
 
@@ -198,29 +202,54 @@ P.P.S. forced call prompt Emmet `ctrl + space`
 <div id="wrapper" class="wrapper"></div>
 ```    
 
-**ID and CLASS** (классы и идентификаторы)    
+**Custom attributes** (пользовательские атрибуты)    
 
-`div.wrapper + tab` (через `.` добавляется класс)   
-
-```
-<div class="wrapper"></div>    
-```    
-
-`div.wrapper + tab` (через `.` добавляется класс)   
+`button[type="button" disabled] + tab` (добавляются через `[]`)   
 
 ```
-<div class="wrapper"></div>
+<button type="button" disabled></button>    
 ```    
 
-`div.wrapper + tab` (через `.` добавляется класс)   
+`p>{Click }+a{here}+{ to continue} + tab` (через `{}` добавляется текст)   
 
 ```
-<div class="wrapper"></div>
+<p>Click <a href="">here</a> to continue</p>
 ```    
 
+**Auto tag substitution** (автоподстановка тегов)  
+
+`.classname + tab` (Названия тегов можно не указывать при создании класса. В таком случае тег создастся максимально подходящий в определенной ситуации)   
+
+```
+<div class="classname"></div>
+```    
+
+`ul>.classname + tab`    
+
+```
+<ul>
+    <li class="classname"></li>
+</ul>
+``` 
+
+`table>.row>.col + tab`  
+
+```
+<table>
+    <tr class="row">
+        <td class="col"></td>
+    </tr>
+</table>
+``` 
+
+## 2. Emmet for HTML ##
 
 
-## Lifehacks and tricks VS Code ##
+
+## 3. Emmet for CSS ##
+
+
+## 4. Lifehacks and tricks VS Code ##
 
 **Dummy text** (текст-рыба)    
 
@@ -242,11 +271,6 @@ cursor at the end of the line to be duplicated
 
 `Alt + Cursor click`     
 `Stuck Mouse Wheel + Cursor move`     
-
-
-## 3. Emmet for CSS ##
-
-
 
 
 
