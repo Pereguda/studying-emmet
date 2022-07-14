@@ -18,10 +18,15 @@ Course content
 + [Attribute operators](#attribute-operators);
 2. [Emmet for HTML](#2-emmet-for-html)    
 + [HTML abbreviations](#html-abbreviations);    
-+ [Heading tags](#heading-tags);    
++ [Heading tags](#heading-tags);  
++ [Emmet Special Instructions](#emmet-special-instructions);  
++ [Working with Forms](#working-with-forms);  
++ [Frequently used tags](#frequently-used-tags);  
 3. [Emmet for CSS](#3-emmet-for-css)        
-+ [Параграфы и разрывы строк]();    
-+ [Заголовки]();  
++ [Formatting Padding Box Model](#formatting-padding-box-model);    
++ [Fonts Text Background Color](#fonts-text-background-color);  
++ [Content Table Borders List XSL](#content-table-borders-list-xsl);    
++ [BEM Filters Settings](#bem-filters-settings);  
 4. [Lifehacks and tricks VS Code](#4-lifehacks-and-tricks-vs-code)    
 
 # Emmet #     
@@ -254,23 +259,36 @@ P.S. forced call prompt Emmet `ctrl + space`
 
 
 
-### HTML abbreviations ###  
+### Emmet Special Instructions ###  
 
 
 
-### HTML abbreviations ###  
+### Working with Forms ###  
 
 
 
-### HTML abbreviations ###  
-
-
-
-### HTML abbreviations ###  
+### Frequently used tags ###  
 
 
 
 ## 3. Emmet for CSS ##
+
+
+
+### Formatting Padding Box Model ###  
+
+
+
+### Fonts Text Background Color ###  
+
+
+
+### Content Table Borders List XSL ###  
+
+
+
+### BEM Filters Settings ###  
+
 
 
 ## 4. Lifehacks and tricks VS Code ##
